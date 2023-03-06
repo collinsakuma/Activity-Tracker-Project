@@ -1,0 +1,32 @@
+{
+    "activities": [
+        {
+            "id": 1,
+            "title": "Monday Run",
+            "image": "",
+            "time": "13m 54s",
+            "distance": "3.13",
+            "pace": "",
+            "speed":""
+        },
+        {
+            "id": 2,
+            "title": "Tuesday Run",
+            "image": "",
+            "time": "13m 54s",
+            "distance": "3.01",
+            "pace": "",
+            "speed":""
+        }
+    ],
+    "Routes": [
+        {
+            "id": 1,
+            "description": "Route",
+            "image":"",
+            "distance": "",
+            "elevation": "",
+            "dificulty": ""
+        }
+    ]
+}
