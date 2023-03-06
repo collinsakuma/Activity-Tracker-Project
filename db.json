@@ -22,11 +22,35 @@
     "Routes": [
         {
             "id": 1,
-            "description": "Route",
-            "image":"",
-            "distance": "",
-            "elevation": "",
-            "dificulty": ""
+            "description": "Central Park 4 Mile Route",
+            "image":"https://lh4.googleusercontent.com/Px9FVftnlMxEPz2hK_mBz3gyEIDiR9LwT7TRFMQGE_rtKLkI6nKRt4Uk8i64Iv5TDFALKGoTPZiy3fs8J8eJKdJu4CvkdI4fXRhkbaVK-ESkbbz_7LOqYor0-ZkxW7FMZg",
+            "distance": "4 miles",
+            "elevation": "300ft",
+            "difficulty": "easy"
+        },
+        {
+            "id": 2,
+            "description": "Benjamin Loop",
+            "image":"https://static-maps.alltrails.com/production/at-map/61799502/v1-trail-us-colorado-benjamin-loop--2-at-map-61799502-1645116020-414w200h-en-US-i-2-style_3.png",
+            "distance": "3.9 miles",
+            "elevation": "662ft",
+            "difficulty": "difficult"
+        },
+        {
+            "id": 3,
+            "description": "Boulder Reservoir Loop",
+            "image":"https://static-maps.alltrails.com/production/at-map/17799720/v1-trail-us-colorado-boulder-reservoir-loop-trail-at-map-17799720-1665073902-300w250h-en-US-i-1-style_3.png",
+            "distance": "5.3 miles",
+            "elevation": "200ft",
+            "difficulty": "moderate"
+        },
+        {
+            "id": 4,
+            "description": "Green Mountain",
+            "image":"https://static-maps.alltrails.com/production/at-map/83165906/v1-trail-us-colorado-green-mountain-loop-via-chautauqua-trail-at-map-83165906-1658816285-300w250h-en-US-i-1-style_3.png",
+            "distance": "6 miles",
+            "elevation": "2,641ft",
+            "difficulty": "difficult"
         }
     ]
 }
