@@ -1,22 +1,20 @@
-import { useEffect, useState } from "react";
+import ActivityCard from "./ActivityCard";
 
-function Home() {
-    const [activities, setActivities] = useState([]);
 
-    useEffect(() => {
-        fetch("http://localhost:3000/activities")
-            .then(res => res.json())
-            .then(setActivities)
-    },[])
+function Home({activities}) {
     const renderActivities = activities.map(activity => (
-        <div key={activity.id}>
-            <img src={activity.image} alt=""/>
-        </div>
+    <div className="col">
+        <ActivityCard key={activity.id} activity={activity}/>
+    </div>
     ))
     return (
         <div>
             <h1>Home</h1>
-            {renderActivities}
+            <div className="Container">
+                <div className="row row-cols-4">
+                    {renderActivities}
+                </div>
+            </div>
         </div>
     )
 }
