@@ -3,8 +3,8 @@
         {
             "id": 1,
             "title": "Monday Run",
-            "image": "",
-            "time": "13m 54s",
+            "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/img-2420-png-1552562517.png?crop=1.00xw:0.851xh;0.00170xw,0.0259xh&resize=480:*",
+            "time": "27m 54s",
             "distance": "3.13",
             "pace": "",
             "speed":""
@@ -13,7 +13,7 @@
             "id": 2,
             "title": "Tuesday Run",
             "image": "",
-            "time": "13m 54s",
+            "time": "25m 40s",
             "distance": "3.01",
             "pace": "",
             "speed":""
