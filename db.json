@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Monday Run",
-            "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/img-2420-png-1552562517.png?crop=1.00xw:0.851xh;0.00170xw,0.0259xh&resize=480:*",
+            "image": "https://thumbs2.imgbox.com/d0/a1/J3nedDMR_t.png",
             "time": "27m 54s",
             "distance": "3.13",
             "pace": "",
@@ -12,10 +12,19 @@
         {
             "id": 2,
             "title": "Tuesday Run",
-            "image": "",
-            "time": "25m 40s",
-            "distance": "3.01",
-            "pace": "",
+            "image": "https://thumbs2.imgbox.com/50/ff/LBONNkBc_t.png",
+            "time": "13m 54s",
+            "distance": "1.39",
+            "pace": "9:57",
+            "speed":""
+        },
+        {
+            "id": 3,
+            "title": "Lake Union Run",
+            "image": "https://thumbs2.imgbox.com/d5/05/jAiJMXxU_t.png",
+            "time": "58m 25s",
+            "distance": "6.47",
+            "pace": "9:01",
             "speed":""
         }
     ],
