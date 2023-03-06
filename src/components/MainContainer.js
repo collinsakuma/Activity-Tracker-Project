@@ -15,14 +15,14 @@ function MainContainer() {
     
     return (
         <Switch>
-            <Route exact path="/">
-                <Home activities={activities}/>
-            </Route>
             <Route path="/profile">
                 <Profile />
             </Route>
             <Route path="/routes">
                 <Routes />
+            </Route>
+            <Route exact path="/">
+                <Home activities={activities}/>
             </Route>
         </Switch> 
     )
