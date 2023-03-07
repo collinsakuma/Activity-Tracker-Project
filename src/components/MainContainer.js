@@ -13,6 +13,19 @@ function MainContainer() {
             .then(setActivities)
     },[])
     
+    const addActivitytoActivities = (newActivity) => {
+        fetch("http://localhost:3001/activities", {
+            method: "POST",
+            headers: {
+                "Content-Type": "Application/json" 
+            },
+            body: JSON.stringify(newActivity)
+        })
+        .then(res => res.json())
+        .then(data => setActivities(
+            [...activities, data]
+        ))
+    }
     return (
         <Switch>
             <Route path="/profile">
@@ -22,7 +35,7 @@ function MainContainer() {
                 <Routes />
             </Route>
             <Route exact path="/">
-                <Home activities={activities}/>
+                <Home activities={activities} addActivitytoActivities={addActivitytoActivities}/>
             </Route>
         </Switch> 
     )

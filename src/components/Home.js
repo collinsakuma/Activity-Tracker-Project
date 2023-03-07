@@ -3,7 +3,7 @@ import ActivityCard from "./ActivityCard";
 import ActivityForm from "./ActivityForm";
 
 
-function Home({activities}) {
+function Home({ activities,  addActivitytoActivities }) {
     const [showForm, setShowForm] = useState(false);
     
     const formToggle = () => {
@@ -16,10 +16,10 @@ function Home({activities}) {
     ))
     return (
         <div>
-            <h1>Home</h1>
-            {showForm ? <ActivityForm /> : null}
+            <h1>Activity Feed</h1>
+            {showForm ? <ActivityForm addActivitytoActivities={addActivitytoActivities}/> : null}
             <div className="button">
-                <button onClick={formToggle}>Add Activity</button>
+                <button onClick={formToggle}>Activity Form</button>
             </div>
             <div className="Container">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
