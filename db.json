@@ -1,108 +1,108 @@
 {
-    "activities": [
-        {
-            "id": 1,
-            "title": "Monday Run",
-            "type": "🏃",
-            "profile": "Collin Sakuma",
-            "date": "3/6/2023",
-            "time": "5:13",
-            "image": "https://thumbs2.imgbox.com/d0/a1/J3nedDMR_t.png",
-            "movementTime": "27m 54s",
-            "distance": 3.13,
-            "pace": "8:19",
-            "speed":"",
-            "elevation": ""
-        },
-        {
-            "id": 2,
-            "title": "Afternoon Run",
-            "type": "🏃",
-            "profile": "Collin Doss",
-            "date": "3/5/2023",
-            "time": "17:14",
-            "image": "https://thumbs2.imgbox.com/50/ff/LBONNkBc_t.png",
-            "movementTime": "13m 54s",
-            "distance": 1.39,
-            "pace": "9:57",
-            "speed":"",
-            "elevation": ""
-        },
-        {
-            "id": 3,
-            "title": "Lake Union Run",
-            "type": "🏃",
-            "profile": "Collin Sakuma",
-            "date": "12/7/2022",
-            "time": "8:17",
-            "image": "https://thumbs2.imgbox.com/d5/05/jAiJMXxU_t.png",
-            "movementTime": "58m 25s",
-            "distance": 6.47,
-            "pace": "9:01",
-            "speed":"",
-            "elevation": ""
-        },
-        {
-            "id": 4,
-            "title": "Afternoon Ride",
-            "type": "🚴",
-            "profile": "Collin Doss",
-            "date": "2/4/2023",
-            "time": "15:06",
-            "image": "https://thumbs2.imgbox.com/19/96/b7fag68d_t.png",
-            "movementTime": "1hr 27m 52s",
-            "distance": 21.34,
-            "pace": "",
-            "speed":14.6,
-            "elevation": 1290
-        },
-        {
-            "id": 5,
-            "title": "Mammoth Lakes",
-            "type": "🏃",
-            "profile": "Collin Sakuma",
-            "date": "6/28/2021",
-            "time": "7:35",
-            "image": "https://thumbs2.imgbox.com/19/8b/sqk7ecfH_t.png",
-            "movementTime": "26m 35s",
-            "distance": 3,
-            "pace": "8:50",
-            "speed": null,
-            "elevation": null
-        }
-    ],
-    "Routes": [
-        {
-            "id": 1,
-            "description": "Central Park 4 Mile Route",
-            "image":"https://lh4.googleusercontent.com/Px9FVftnlMxEPz2hK_mBz3gyEIDiR9LwT7TRFMQGE_rtKLkI6nKRt4Uk8i64Iv5TDFALKGoTPZiy3fs8J8eJKdJu4CvkdI4fXRhkbaVK-ESkbbz_7LOqYor0-ZkxW7FMZg",
-            "distance": "4 miles",
-            "elevation": "300ft",
-            "difficulty": "easy"
-        },
-        {
-            "id": 2,
-            "description": "Benjamin Loop",
-            "image":"https://static-maps.alltrails.com/production/at-map/61799502/v1-trail-us-colorado-benjamin-loop--2-at-map-61799502-1645116020-414w200h-en-US-i-2-style_3.png",
-            "distance": "3.9 miles",
-            "elevation": "662ft",
-            "difficulty": "difficult"
-        },
-        {
-            "id": 3,
-            "description": "Boulder Reservoir Loop",
-            "image":"https://static-maps.alltrails.com/production/at-map/17799720/v1-trail-us-colorado-boulder-reservoir-loop-trail-at-map-17799720-1665073902-300w250h-en-US-i-1-style_3.png",
-            "distance": "5.3 miles",
-            "elevation": "200ft",
-            "difficulty": "moderate"
-        },
-        {
-            "id": 4,
-            "description": "Green Mountain",
-            "image":"https://static-maps.alltrails.com/production/at-map/83165906/v1-trail-us-colorado-green-mountain-loop-via-chautauqua-trail-at-map-83165906-1658816285-300w250h-en-US-i-1-style_3.png",
-            "distance": "6 miles",
-            "elevation": "2,641ft",
-            "difficulty": "difficult"
-        }
-    ]
+  "activities": [
+    {
+      "id": 1,
+      "title": "Monday Run",
+      "type": "🏃",
+      "profile": "Collin Sakuma",
+      "date": "3/6/2023",
+      "time": "5:13",
+      "image": "https://thumbs2.imgbox.com/d0/a1/J3nedDMR_t.png",
+      "movementTime": "27m 54s",
+      "distance": 3.13,
+      "pace": "8:19",
+      "speed": "",
+      "elevation": ""
+    },
+    {
+      "id": 2,
+      "title": "Afternoon Run",
+      "type": "🏃",
+      "profile": "Collin Doss",
+      "date": "3/5/2023",
+      "time": "17:14",
+      "image": "https://thumbs2.imgbox.com/50/ff/LBONNkBc_t.png",
+      "movementTime": "13m 54s",
+      "distance": 1.39,
+      "pace": "9:57",
+      "speed": "",
+      "elevation": ""
+    },
+    {
+      "id": 3,
+      "title": "Lake Union Run",
+      "type": "🏃",
+      "profile": "Collin Sakuma",
+      "date": "12/7/2022",
+      "time": "8:17",
+      "image": "https://thumbs2.imgbox.com/d5/05/jAiJMXxU_t.png",
+      "movementTime": "58m 25s",
+      "distance": 6.47,
+      "pace": "9:01",
+      "speed": "",
+      "elevation": ""
+    },
+    {
+      "id": 4,
+      "title": "Afternoon Ride",
+      "type": "🚴",
+      "profile": "Collin Doss",
+      "date": "2/4/2023",
+      "time": "15:06",
+      "image": "https://thumbs2.imgbox.com/19/96/b7fag68d_t.png",
+      "movementTime": "1hr 27m 52s",
+      "distance": 21.34,
+      "pace": "",
+      "speed": 14.6,
+      "elevation": 1290
+    },
+    {
+      "id": 5,
+      "title": "Mammoth Lakes",
+      "type": "🏃",
+      "profile": "Collin Sakuma",
+      "date": "6/28/2021",
+      "time": "7:35",
+      "image": "https://thumbs2.imgbox.com/19/8b/sqk7ecfH_t.png",
+      "movementTime": "26m 35s",
+      "distance": 3,
+      "pace": "8:50",
+      "speed": null,
+      "elevation": null
+    }
+  ],
+  "Routes": [
+    {
+      "id": 1,
+      "description": "Central Park 4 Mile Route",
+      "image": "https://lh4.googleusercontent.com/Px9FVftnlMxEPz2hK_mBz3gyEIDiR9LwT7TRFMQGE_rtKLkI6nKRt4Uk8i64Iv5TDFALKGoTPZiy3fs8J8eJKdJu4CvkdI4fXRhkbaVK-ESkbbz_7LOqYor0-ZkxW7FMZg",
+      "distance": "4 miles",
+      "elevation": "300ft",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "description": "Benjamin Loop",
+      "image": "https://static-maps.alltrails.com/production/at-map/61799502/v1-trail-us-colorado-benjamin-loop--2-at-map-61799502-1645116020-414w200h-en-US-i-2-style_3.png",
+      "distance": "3.9 miles",
+      "elevation": "662ft",
+      "difficulty": "difficult"
+    },
+    {
+      "id": 3,
+      "description": "Boulder Reservoir Loop",
+      "image": "https://static-maps.alltrails.com/production/at-map/17799720/v1-trail-us-colorado-boulder-reservoir-loop-trail-at-map-17799720-1665073902-300w250h-en-US-i-1-style_3.png",
+      "distance": "5.3 miles",
+      "elevation": "200ft",
+      "difficulty": "moderate"
+    },
+    {
+      "id": 4,
+      "description": "Green Mountain",
+      "image": "https://static-maps.alltrails.com/production/at-map/83165906/v1-trail-us-colorado-green-mountain-loop-via-chautauqua-trail-at-map-83165906-1658816285-300w250h-en-US-i-1-style_3.png",
+      "distance": "6 miles",
+      "elevation": "2,641ft",
+      "difficulty": "difficult"
+    }
+  ]
 }
