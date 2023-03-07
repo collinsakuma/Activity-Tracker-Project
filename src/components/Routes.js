@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import RouteCard from "./RouteCard";
 
-const routeAPI = "http://localhost:3000/Routes";
+const routeAPI = "http://localhost:3001/Routes";
 
 function Routes() {
     const [routes, setRoutes] = useState([]);
@@ -15,7 +15,9 @@ function Routes() {
     return (
     <div>
         <h1>Routes</h1>
-        <ul className="cards">{routes.map(route => <RouteCard key={route.id} route={route}/>)}</ul>
+        <div className="container">
+            <div className="row row-cols-4">{routes.map(route => <RouteCard key={route.id} route={route}/>)}</div>
+        </div>
     </div>
     );
 }
