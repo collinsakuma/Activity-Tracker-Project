@@ -3,92 +3,72 @@
         {
             "id": 1,
             "title": "Monday Run",
+            "type": "🏃",
+            "profile": "Collin Sakuma",
+            "date": "3/6/2023",
+            "time": "5:13",
             "image": "https://thumbs2.imgbox.com/d0/a1/J3nedDMR_t.png",
-            "time": "27m 54s",
-            "distance": "3.13",
-            "pace": "",
-            "speed":""
+            "movementTime": "27m 54s",
+            "distance": 3.13,
+            "pace": "8:19",
+            "speed":"",
+            "elevation": ""
         },
         {
             "id": 2,
-            "title": "Tuesday Run",
+            "title": "Afternoon Run",
+            "type": "🏃",
+            "profile": "Collin Doss",
+            "date": "3/5/2023",
+            "time": "17:14",
             "image": "https://thumbs2.imgbox.com/50/ff/LBONNkBc_t.png",
-            "time": "13m 54s",
-            "distance": "1.39",
+            "movementTime": "13m 54s",
+            "distance": 1.39,
             "pace": "9:57",
-            "speed":""
+            "speed":"",
+            "elevation": ""
         },
         {
             "id": 3,
             "title": "Lake Union Run",
+            "type": "🏃",
+            "profile": "Collin Sakuma",
+            "date": "12/7/2022",
+            "time": "8:17",
             "image": "https://thumbs2.imgbox.com/d5/05/jAiJMXxU_t.png",
-            "time": "58m 25s",
-            "distance": "6.47",
+            "movementTime": "58m 25s",
+            "distance": 6.47,
             "pace": "9:01",
-            "speed":""
+            "speed":"",
+            "elevation": ""
         },
         {
             "id": 4,
-            "title": "Lake Union Run",
-            "image": "https://thumbs2.imgbox.com/d5/05/jAiJMXxU_t.png",
-            "time": "58m 25s",
-            "distance": "6.47",
-            "pace": "9:01",
-            "speed":""
+            "title": "Afternoon Ride",
+            "type": "🚴",
+            "profile": "Collin Doss",
+            "date": "2/4/2023",
+            "time": "15:06",
+            "image": "https://thumbs2.imgbox.com/19/96/b7fag68d_t.png",
+            "movementTime": "1hr 27m 52s",
+            "distance": 21.34,
+            "pace": "",
+            "speed":14.6,
+            "elevation": 1290
         },
         {
             "id": 5,
-            "title": "Lake Union Run",
-            "image": "https://thumbs2.imgbox.com/d5/05/jAiJMXxU_t.png",
-            "time": "58m 25s",
-            "distance": "6.47",
-            "pace": "9:01",
-            "speed":""
-        },
-        {
-            "id": 6,
-            "title": "Lake Union Run",
-            "image": "https://thumbs2.imgbox.com/d5/05/jAiJMXxU_t.png",
-            "time": "58m 25s",
-            "distance": "6.47",
-            "pace": "9:01",
-            "speed":""
-        },
-        {
-            "id": 7,
-            "title": "Lake Union Run",
-            "image": "https://thumbs2.imgbox.com/d5/05/jAiJMXxU_t.png",
-            "time": "58m 25s",
-            "distance": "6.47",
-            "pace": "9:01",
-            "speed":""
-        },
-        {
-            "id": 8,
-            "title": "Lake Union Run",
-            "image": "https://thumbs2.imgbox.com/d5/05/jAiJMXxU_t.png",
-            "time": "58m 25s",
-            "distance": "6.47",
-            "pace": "9:01",
-            "speed":""
-        },
-        {
-            "id": 9,
-            "title": "Lake Union Run",
-            "image": "https://thumbs2.imgbox.com/d5/05/jAiJMXxU_t.png",
-            "time": "58m 25s",
-            "distance": "6.47",
-            "pace": "9:01",
-            "speed":""
-        },
-        {
-            "id": 10,
-            "title": "Lake Union Run",
-            "image": "https://thumbs2.imgbox.com/d5/05/jAiJMXxU_t.png",
-            "time": "58m 25s",
-            "distance": "6.47",
-            "pace": "9:01",
-            "speed":""
+            "title": "Mammoth Lakes",
+            "type": "🏃",
+            "profile": "Collin Sakuma",
+            "date": "6/28/2021",
+            "time": "7:35",
+            "image": "https://thumbs2.imgbox.com/19/8b/sqk7ecfH_t.png",
+            "movementTime": "26m 35s",
+            "distance": 3,
+            "pace": "8:50",
+            "speed": null,
+            "elevation": null
         }
     ],
     "Routes": [
