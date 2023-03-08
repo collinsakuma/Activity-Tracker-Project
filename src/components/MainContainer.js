@@ -29,7 +29,7 @@ function MainContainer() {
     return (
         <Switch>
             <Route path="/profile">
-                <Profile />
+                <Profile activities={activities}/>
             </Route>
             <Route path="/routes">
                 <Routes />
