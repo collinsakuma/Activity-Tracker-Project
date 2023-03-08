@@ -10,7 +10,6 @@ function RunForm({ addActivitytoActivities }) {
     const [distance, setDistance] = useState("");
     const [pace, setPace] = useState("");
 
-    console.log(profile)
     const handleRunSubmit = (e) => {
         e.preventDefault();
         const newActivity= {
@@ -27,6 +26,8 @@ function RunForm({ addActivitytoActivities }) {
             elevation: null
         }
         addActivitytoActivities(newActivity)
+        setTitle(""); setDate(""); setTime(""); setImage(""); setMovementTime(""); setDistance(""); setPace(""); 
+
     }
     return (
     <div className="container">

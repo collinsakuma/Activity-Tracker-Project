@@ -9,7 +9,7 @@ function RideForm({ addActivitytoActivities }) {
     const [movementTime, setMovementTime] = useState("");
     const [distance, setDistance] = useState("");
     const [speed, setSpeed] = useState("");
-    const [elevation,setElevation] = useState("");
+    const [elevation, setElevation] = useState("");
     
     const handleRunSubmit = (e) => {
         e.preventDefault();
@@ -27,6 +27,7 @@ function RideForm({ addActivitytoActivities }) {
             elevation: parseFloat(elevation),
         }
         addActivitytoActivities(newActivity)
+        setTitle(""); setDate(""); setTime(""); setImage(""); setMovementTime(""); setDistance(""); setSpeed(""); setElevation("");
     }
     return (
         <div className="container">
