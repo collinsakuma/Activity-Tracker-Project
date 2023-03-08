@@ -6,12 +6,14 @@ function ActivityCard({ activity }) {
     }
     
     return (
-        <div className="card" style={{width: "350px", height: "350px"}}>
-            <p>{type} {profile}-<b>{title}</b></p>
-            <p>{toStandardTime(time)}</p>
-            <img className="card-img" src={image} alt={title} style={{width:"300", height: "200px"}}/>
-            <p><b>Movement Time:</b> {movementTime}</p>
-            <p>Distance: {distance} miles</p>
+        <div className="card h-100">
+            <img className="card-img-top" src={image} alt={title} />
+            <div className="card-body">
+                <p className="card-title">{type} {profile}-<b>{title}</b></p>
+                <p>{toStandardTime(time)}</p>
+                <p><b>Movement Time:</b> {movementTime}</p>
+                <p>Distance: {distance} miles</p>
+            </div>
         </div>
     )
   }
