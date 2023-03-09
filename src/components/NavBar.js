@@ -1,20 +1,26 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-function NavBar() {
+function NavBar({ formToggle }) {
+    const [hidden, setHidden] = useState(false);
+    
     return (
         <nav className="navbar navbar-expand bg-light" style={{background: "gray"}}>
             <div className="container">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <NavLink className="nav-link" exact to="/" activeStyle={{fontWeight:"bold", color:"#f52000"}}>Activty Feed</NavLink>
+                        <NavLink onClick={() => setHidden(false)} className="nav-link" exact to="/" activeStyle={{fontWeight:"bold", color:"#f52000"}}>Activty Feed</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/profile" activeStyle={{fontWeight:"bold", color:"#f52000"}}>Profile</NavLink>
+                        <NavLink onClick={() => setHidden(true)} className="nav-link" to="/profile" activeStyle={{fontWeight:"bold", color:"#f52000"}}>Profile</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className="nav-link" to="/routes" activeStyle={{fontWeight:"bold", color:"#f52000"}}>Routes</NavLink>
+                        <NavLink onClick={() => setHidden(true)} className="nav-link" to="/routes" activeStyle={{fontWeight:"bold", color:"#f52000"}}>Routes</NavLink>
                     </li>
                 </ul>
+                <div className={hidden ? "hidden" : ""}>
+                        <button className ="nav-link button-link" onClick={formToggle} style={{fontWeight:"normal", color:"#f52000"}}>New Activity</button>
+                </div>
             </div>
         </nav>
     )

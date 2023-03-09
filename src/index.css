@@ -64,13 +64,19 @@ code {
   color: #fc5200;
 }
 
+.button-link {
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: black;
+}
+
 .profile > .profile-header {
   text-align: left;
   margin-left: 50px;
   color: #fc5200;
 }
 
-.profile > .profile-container {
-  align-content: center;
-  margin-left: 20px;
+.hidden {
+  display: none;
 }
