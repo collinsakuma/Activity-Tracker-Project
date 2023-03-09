@@ -71,6 +71,12 @@ code {
   color: black;
 }
 
+.profile > .profile-header {
+  text-align: left;
+  margin-left: 50px;
+  color: #fc5200;
+}
+
 .hidden {
   display: none;
 }

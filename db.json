@@ -69,12 +69,55 @@
       "pace": "8:50",
       "speed": null,
       "elevation": null
+    },
+    {
+      "id": 6,
+      "title": "Afternoon Ride",
+      "type": "🚴",
+      "profile": "Katelyn Luther",
+      "date": "2/25/2023",
+      "time": "13:05",
+      "image": "https://images2.imgbox.com/0f/b7/FjNTXbcX_o.png",
+      "movementTime": "1:24:02",
+      "distance": 22.92,
+      "pace": null,
+      "speed": 16.4,
+      "elevation": 774
+    },
+    {
+      "id": 7,
+      "title": "Long Ride",
+      "type": "🚴",
+      "profile": "Katelyn Luther",
+      "date": "1/14/2023",
+      "time": "12:38",
+      "image": "https://images2.imgbox.com/23/ae/rYnZr0c7_o.png",
+      "movementTime": "3:24:13",
+      "distance": 50.46,
+      "pace": null,
+      "speed": 14.8,
+      "elevation": 1706
+    },
+    {
+      "id": 8,
+      "title": "Fraser Gravel",
+      "type": "🚴",
+      "profile": "Katelyn Luther",
+      "date": "9/17/2022",
+      "time": "9:02",
+      "image": "https://images2.imgbox.com/99/b3/lUHx6wMl_o.png",
+      "movementTime": "5:30:40",
+      "distance": 63.28,
+      "pace": null,
+      "speed": 11.5,
+      "elevation": 4987
     }
   ],
   "Routes": [
     {
       "id": 1,
       "description": "Central Park 4 Mile Route",
+      "type": "🏃",
       "image": "https://lh4.googleusercontent.com/Px9FVftnlMxEPz2hK_mBz3gyEIDiR9LwT7TRFMQGE_rtKLkI6nKRt4Uk8i64Iv5TDFALKGoTPZiy3fs8J8eJKdJu4CvkdI4fXRhkbaVK-ESkbbz_7LOqYor0-ZkxW7FMZg",
       "distance": "4 miles",
       "elevation": "300ft",
@@ -83,6 +126,7 @@
     {
       "id": 2,
       "description": "Benjamin Loop",
+      "type": "🏃",
       "image": "https://static-maps.alltrails.com/production/at-map/61799502/v1-trail-us-colorado-benjamin-loop--2-at-map-61799502-1645116020-414w200h-en-US-i-2-style_3.png",
       "distance": "3.9 miles",
       "elevation": "662ft",
@@ -91,6 +135,7 @@
     {
       "id": 3,
       "description": "Boulder Reservoir Loop",
+      "type": "🏃",
       "image": "https://static-maps.alltrails.com/production/at-map/17799720/v1-trail-us-colorado-boulder-reservoir-loop-trail-at-map-17799720-1665073902-300w250h-en-US-i-1-style_3.png",
       "distance": "5.3 miles",
       "elevation": "200ft",
@@ -99,6 +144,7 @@
     {
       "id": 4,
       "description": "Green Mountain",
+      "type": "🏃",
       "image": "https://static-maps.alltrails.com/production/at-map/83165906/v1-trail-us-colorado-green-mountain-loop-via-chautauqua-trail-at-map-83165906-1658816285-300w250h-en-US-i-1-style_3.png",
       "distance": "6 miles",
       "elevation": "2,641ft",

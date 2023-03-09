@@ -7,11 +7,16 @@ function CollinSProfile({activities}) {
         </div>
         ))
     return (
-        <div className="Container">
-        <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-            {renderActivitiesByProfile}
+        <div className="profile">
+            <div className="profile-header">
+                <img className="profile-image" src="https://thumbs2.imgbox.com/7a/1b/9fyUyas3_t.png" style={{height: "100px"}}></img><h2>Collin Sakuma</h2>
+            </div>
+            <div className="Container">
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                {renderActivitiesByProfile}
+            </div>
+            </div>
         </div>
-    </div>
     )
 }
 
