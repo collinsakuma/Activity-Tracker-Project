@@ -12,10 +12,6 @@ code {
     monospace;
 }
 
-.activityForm {
-  width: 300px;
-}
-
 .header-profile {
   font-size: small;
 }
@@ -80,3 +76,11 @@ code {
 .hidden {
   display: none;
 }
+
+.form {
+  background-color: #FBFBFB;
+}
+
+.form-dropdown {
+  align-self: center;
+} 
