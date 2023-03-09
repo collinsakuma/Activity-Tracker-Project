@@ -63,3 +63,9 @@ code {
   text-decoration: underline;
   color: #fc5200;
 }
+
+.profile > .profile-header {
+  text-align: left;
+  margin-left: 50px;
+  color: #fc5200;
+}
