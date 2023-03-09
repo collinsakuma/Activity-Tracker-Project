@@ -1,6 +1,8 @@
 function Header() {
     return (
-        <h1>Activity Tracker</h1>
+        <div className="header-component bg-light">
+            <h1 className="website-name">Activity Tracker</h1>
+        </div>
     )
 }
 export default Header;

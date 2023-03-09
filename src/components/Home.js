@@ -22,7 +22,7 @@ function Home({ activities,  addActivitytoActivities }) {
                 <button onClick={formToggle}>Activity Form</button>
             </div>
             <div className="container">
-                <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4 m-1">
+                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 m-1">
                     {renderActivities}
                 </div>
             </div>

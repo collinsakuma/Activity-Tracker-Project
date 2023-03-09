@@ -81,7 +81,7 @@ function RunForm({ addActivitytoActivities }) {
             <div className="col-6">
                 <input
                     className={"form-control"}
-                    type="number"
+                    type="text"
                     name="movementTime"
                     placeholder="Run Duration"
                     value={movementTime}

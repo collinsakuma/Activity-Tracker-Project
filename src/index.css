@@ -13,5 +13,53 @@ code {
 }
 
 .activityForm {
-  width: 300px,
+  width: 300px;
+}
+
+.header-profile {
+  font-size: small;
+}
+
+.header-icon {
+  size: 10em;
+}
+
+.runner-header {
+  display: inline-flex;
+  text-align: center;
+  font-size: .9rem;
+  margin-bottom: -10%;
+}
+
+.date-time {
+  text-align: left;
+  font-size: .8rem;
+  opacity: 70%;
+  margin-left:12%;
+  margin-top: 0%;
+}
+
+.card-font-weight {
+  font-weight: 610;
+}
+
+.runner-body {
+  display: block;
+  text-align: left;
+  font-size: .9rem;
+  margin-top:0%;
+  margin-bottom: -5%;
+}
+
+.website-name {
+  color: #fc5200;
+}
+
+.nav-link {
+  color: #fc5200;
+}
+
+.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  text-decoration: underline;
+  color: #fc5200;
 }
