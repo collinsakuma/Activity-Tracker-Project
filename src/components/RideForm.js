@@ -32,7 +32,7 @@ function RideForm({ addActivitytoActivities }) {
     return (
         <div className="container">
         <form onSubmit={handleRunSubmit} className="row">
-            <div className="col-6">
+            <div className="col-6 g-1">
                 <input
                     className={"form-control"}
                     type="text"
@@ -42,7 +42,7 @@ function RideForm({ addActivitytoActivities }) {
                     onChange={(e) => setTitle(e.target.value)}
                 />
             </div>
-            <div className="col-6">
+            <div className="col-6 g-1">
                 <select className="form-select" defaultValue={"DEFAULT"} onChange={(e) => setProfile(e.target.value)}>
                     <option value="DEFAULT" disabled hidden>Profile</option>
                     <option value="Collin Sakuma">Collin Sakuma</option>
@@ -50,7 +50,7 @@ function RideForm({ addActivitytoActivities }) {
                     <option value="Katelyn Luther">Katelyn Luther</option>
                 </select>
             </div>
-            <div className="col-6">
+            <div className="col-6 g-1">
                 <input
                     className={"form-control"}
                     type="date"
@@ -59,7 +59,7 @@ function RideForm({ addActivitytoActivities }) {
                     onChange={(e) => setDate(e.target.value)}
                 />
             </div>
-            <div className="col-6">
+            <div className="col-6 g-1">
                 <input
                     className={"form-control"}
                     type="time"
@@ -68,7 +68,7 @@ function RideForm({ addActivitytoActivities }) {
                     onChange={(e) => setTime(e.target.value)}
                 />
             </div>
-            <div className="col-6">
+            <div className="col-6 g-1">
                 <input
                     className={"form-control"}
                     type="text"
@@ -78,7 +78,7 @@ function RideForm({ addActivitytoActivities }) {
                     onChange={(e) => setImage(e.target.value)}
                 />
             </div>
-            <div className="col-6">
+            <div className="col-6 g-1">
                 <input
                     className={"form-control"}
                     type="text"
@@ -88,7 +88,7 @@ function RideForm({ addActivitytoActivities }) {
                     onChange={(e) => setMovementTime(e.target.value)}
                 />
             </div>
-            <div className="col-6">
+            <div className="col-6 g-1">
                 <input
                     className={"form-control"}
                     type="number"
@@ -98,7 +98,7 @@ function RideForm({ addActivitytoActivities }) {
                     onChange={(e) => setDistance(e.target.value)}
                 />
             </div>
-            <div className="col-6">
+            <div className="col-6 g-1">
                 <input
                     className={"form-control"}
                     type="number"
@@ -108,7 +108,7 @@ function RideForm({ addActivitytoActivities }) {
                     onChange={(e) => setSpeed(e.target.value)}
                 />
             </div>
-            <div className="col-6">
+            <div className="col-6 g-1">
                 <input
                     className={"form-control"}
                     type="number"
@@ -118,7 +118,7 @@ function RideForm({ addActivitytoActivities }) {
                     onChange={(e) => setElevation(e.target.value)}
                 />
             </div>
-            <div className="col-12">
+            <div className="col-12 g-2 m-1">
                 <input
                     type="submit"
                     name="submit"

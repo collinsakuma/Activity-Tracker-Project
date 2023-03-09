@@ -14,7 +14,6 @@ function Home({ activities,  addActivitytoActivities, showForm }) {
             <h1>Activity Feed</h1>
             {showForm ? <ActivityForm addActivitytoActivities={addActivitytoActivities}/> : null}
             <div className="button">
-
             </div>
             <div className="container">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 m-1">
