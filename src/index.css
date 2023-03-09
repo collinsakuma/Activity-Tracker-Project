@@ -69,3 +69,8 @@ code {
   margin-left: 50px;
   color: #fc5200;
 }
+
+.profile > .profile-container {
+  align-content: center;
+  margin-left: 20px;
+}

@@ -1,11 +1,22 @@
 function RouteCard({route}) {
   return (
-    <div className="card" style={{width: "350px", height: "350px"}}>
-      <h4>{route.description} - {route.type}</h4>
-      <img src={route.image} alt={route.description} style={{height: "200px"}}/>
-      <p><b className="card-font-weight">Distance: </b>{route.distance}</p>
-      <p><b className="card-font-weight">Elevation Gain: </b>{route.elevation}</p>
-      <p><b className="card-font-weight">Difficulty: </b> {route.difficulty}</p>
+    <div className="card h-100">
+      <div className="card-header">
+        <div className="runner-header">
+         <p><b className="card-font-weight">{route.description} - {route.type}</b></p>
+      </div>
+      </div>
+      <img className="card-img-top" src={route.image} alt={route.description}/>
+      <div className="card-body">
+      <div className="runner-body">
+          <p><b className="card-font-weight">Location: </b>{route.location}</p></div>
+        <div className="runner-body">
+          <p><b className="card-font-weight">Distance: </b>{route.distance}</p></div>
+        <div className="runner-body">
+          <p><b className="card-font-weight">Elevation Gain: </b>{route.elevation}</p></div>
+        <div className="runner-body">
+          <p><b className="card-font-weight">Difficulty: </b> {route.difficulty}</p></div>
+      </div>
     </div>
   );
 }
