@@ -1,5 +1,5 @@
 function ProfileCard({ activity }) {
-    const {title, image, time, distance, pace, speed, movementTime, profile, date, location, type} = activity;
+    const {title, image, time, distance, pace, speed, movementTime, profile, date, location, type, elevation} = activity;
     function toStandardTime(militaryTime) {
         militaryTime = militaryTime.split(':');
         return (militaryTime[0].charAt(0) == 1 && militaryTime[0].charAt(1) > 2) ? (militaryTime[0] - 12) + ':' + militaryTime[1] + ' P.M.' : militaryTime.join(':') + ' A.M.'
@@ -29,10 +29,13 @@ function ProfileCard({ activity }) {
                     <p><b className="card-font-weight">Movement Time:</b> {convertMovementTime(movementTime)}</p>
                 </div>
                 <div className="runner-body">
-                    <p><b className="card-font-weight">Pace:</b> {pace} {speed}</p>
+                <p><b className="card-font-weight">{pace !== null ? "Pace:" : "Average Speed:"}</b> {pace !== null ? pace : speed}{pace !== null ? " /mi" : " mph"}</p>
                 </div>
                 <div className="runner-body align-left">
                     <p><b className="card-font-weight">Distance:</b> {distance} miles</p>
+                </div>
+                <div className="runner-body align-left">
+                    <p><b className="card-font-weight">Elevation</b> {elevation}'</p>
                 </div>
             </div>
         </div>

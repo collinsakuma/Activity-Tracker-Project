@@ -12,7 +12,7 @@
       "distance": 3.13,
       "pace": "8:19",
       "speed": null,
-      "elevation": null
+      "elevation": 25
     },
     {
       "id": 2,
@@ -26,7 +26,7 @@
       "distance": 1.39,
       "pace": "9:57",
       "speed": null,
-      "elevation": null
+      "elevation": 130
     },
     {
       "id": 3,
@@ -40,7 +40,7 @@
       "distance": 6.47,
       "pace": "9:01",
       "speed": null,
-      "elevation": null
+      "elevation": 200
     },
     {
       "id": 4,
@@ -68,7 +68,7 @@
       "distance": 3,
       "pace": "8:50",
       "speed": null,
-      "elevation": null
+      "elevation": 300
     },
     {
       "id": 6,
@@ -77,7 +77,7 @@
       "profile": "Katelyn Luther",
       "date": "2/25/2023",
       "time": "13:05",
-      "image": "https://images2.imgbox.com/0f/b7/FjNTXbcX_o.png",
+      "image": "https://images2.imgbox.com/88/d3/WCX1KKWJ_o.png",
       "movementTime": "1:24:02",
       "distance": 22.92,
       "pace": null,
@@ -91,7 +91,7 @@
       "profile": "Katelyn Luther",
       "date": "1/14/2023",
       "time": "12:38",
-      "image": "https://images2.imgbox.com/23/ae/rYnZr0c7_o.png",
+      "image": "https://images2.imgbox.com/b4/92/DFicLTtF_o.png",
       "movementTime": "3:24:13",
       "distance": 50.46,
       "pace": null,
@@ -105,7 +105,7 @@
       "profile": "Katelyn Luther",
       "date": "9/17/2022",
       "time": "9:02",
-      "image": "https://images2.imgbox.com/99/b3/lUHx6wMl_o.png",
+      "image": "https://images2.imgbox.com/95/a3/eE48xncq_o.png",
       "movementTime": "5:30:40",
       "distance": 63.28,
       "pace": null,
@@ -116,32 +116,32 @@
   "Routes": [
     {
       "id": 1,
-      "description": "Central Park 4 Mile Route",
-      "location": "New York, NY",
-      "type": "🏃",
-      "image": "https://lh4.googleusercontent.com/Px9FVftnlMxEPz2hK_mBz3gyEIDiR9LwT7TRFMQGE_rtKLkI6nKRt4Uk8i64Iv5TDFALKGoTPZiy3fs8J8eJKdJu4CvkdI4fXRhkbaVK-ESkbbz_7LOqYor0-ZkxW7FMZg",
-      "distance": "4 miles",
-      "elevation": "300ft",
-      "difficulty": "easy"
+      "description": "Gold Hill",
+      "location": "Boulder, CO",
+      "type": "🚴",
+      "image": "https://images2.imgbox.com/a4/91/ruGk9YIW_o.png",
+      "distance": 30.38,
+      "elevation": 5101,
+      "difficulty": "difficult"
     },
     {
       "id": 2,
       "description": "Benjamin Loop",
       "location": "Boulder, CO",
       "type": "🏃",
-      "image": "https://static-maps.alltrails.com/production/at-map/61799502/v1-trail-us-colorado-benjamin-loop--2-at-map-61799502-1645116020-414w200h-en-US-i-2-style_3.png",
-      "distance": "3.9 miles",
-      "elevation": "662ft",
+      "image": "https://images2.imgbox.com/81/5a/fybP8Bvh_o.png",
+      "distance": 3.9,
+      "elevation": 662,
       "difficulty": "difficult"
     },
     {
       "id": 3,
-      "description": "Boulder Reservoir Loop",
+      "description": "Boulder Reservoir",
       "location": "Boulder, CO",
       "type": "🏃",
-      "image": "https://static-maps.alltrails.com/production/at-map/17799720/v1-trail-us-colorado-boulder-reservoir-loop-trail-at-map-17799720-1665073902-300w250h-en-US-i-1-style_3.png",
-      "distance": "5.3 miles",
-      "elevation": "200ft",
+      "image": "https://images2.imgbox.com/ce/58/XUsDsREj_o.png",
+      "distance": 5.3,
+      "elevation": 200,
       "difficulty": "moderate"
     },
     {
@@ -149,9 +149,9 @@
       "description": "Green Mountain",
       "location": "Boulder, CO",
       "type": "🏃",
-      "image": "https://static-maps.alltrails.com/production/at-map/83165906/v1-trail-us-colorado-green-mountain-loop-via-chautauqua-trail-at-map-83165906-1658816285-300w250h-en-US-i-1-style_3.png",
-      "distance": "6 miles",
-      "elevation": "2,641ft",
+      "image": "https://images2.imgbox.com/0b/72/ZrVQxHmE_o.png",
+      "distance": 6,
+      "elevation": 2641,
       "difficulty": "difficult"
     }
   ]
