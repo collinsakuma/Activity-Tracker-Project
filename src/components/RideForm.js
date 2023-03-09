@@ -81,7 +81,7 @@ function RideForm({ addActivitytoActivities }) {
             <div className="col-6">
                 <input
                     className={"form-control"}
-                    type="number"
+                    type="text"
                     name="movementTime"
                     placeholder="Ride Duration"
                     value={movementTime}
