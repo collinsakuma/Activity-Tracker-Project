@@ -1,5 +1,8 @@
+import { Link, Route, Switch } from "react-router-dom";
+import Profile from "./Profile";
+
 function ActivityCard({ activity }) {
-    const {title, image, time, distance, pace, movementTime, profile, date, location, type} = activity;
+    const {title, image, time, distance, pace, speed, movementTime, profile, date, location, type} = activity;
     function toStandardTime(militaryTime) {
         militaryTime = militaryTime.split(':');
         return (militaryTime[0].charAt(0) == 1 && militaryTime[0].charAt(1) > 2) ? (militaryTime[0] - 12) + ':' + militaryTime[1] + ' P.M.' : militaryTime.join(':') + ' A.M.'
@@ -14,11 +17,12 @@ function ActivityCard({ activity }) {
           return(`${newTime[0]}m ${newTime[1]}s`)
         }
       }
+
     return (
         <div className="card h-100">
             <div className="card-header">
                 <div className="runner-header">
-                    <p>{type} {profile}</p>-<b>{title}</b>
+                    <p>{type} <Link to={`/profile/${profile}`} className="button-link">{profile}</Link></p>-<b>{title}</b>
                 </div>
                 <div className="date-time">
                     {date} at {toStandardTime(time)}
@@ -30,7 +34,7 @@ function ActivityCard({ activity }) {
                     <p><b className="card-font-weight">Movement Time:</b> {convertMovementTime(movementTime)}</p>
                 </div>
                 <div className="runner-body">
-                    <p><b className="card-font-weight">Pace:</b> {pace}</p>
+                    <p><b className="card-font-weight">{pace !== null ? "Pace:" : "Average Speed:"}</b> {pace !== null ? pace : speed}{pace !== null ? " /mi" : " mph"}</p>
                 </div>
                 <div className="runner-body align-left">
                     <p><b className="card-font-weight">Distance:</b> {distance} miles</p>

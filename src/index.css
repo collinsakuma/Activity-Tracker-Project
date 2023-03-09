@@ -63,3 +63,14 @@ code {
   text-decoration: underline;
   color: #fc5200;
 }
+
+.button-link {
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: black;
+}
+
+.hidden {
+  display: none;
+}
