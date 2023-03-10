@@ -14,7 +14,7 @@ function ProfileCard({ activity }) {
         }
       }
     return (
-        <div className="card h-100">
+        <div className="card col-12 display:flex m-1 p-0">
             <div className="card-header">
                 <div className="runner-header">
                     <p>{type}</p><b>{title}</b>

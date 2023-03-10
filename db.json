@@ -41,7 +41,6 @@
       "movementTime": "58:25",
       "distance": 6.47,
       "pace": "9:01",
-      "speed": null,
       "elevation": 205,
       "location": "Seattle, WA"
     },
@@ -87,7 +86,8 @@
       "distance": 22.92,
       "pace": null,
       "speed": 16.4,
-      "elevation": 774
+      "elevation": 774,
+      "location": "Boulder, CO"
     },
     {
       "id": 7,
@@ -101,7 +101,8 @@
       "distance": 50.46,
       "pace": null,
       "speed": 14.8,
-      "elevation": 1706
+      "elevation": 1706,
+      "location": "Boulder, CO"
     },
     {
       "id": 8,
@@ -115,7 +116,23 @@
       "distance": 63.28,
       "pace": null,
       "speed": 11.5,
-      "elevation": 4987
+      "elevation": 4987,
+      "location": "Fraser, CO"
+    },
+    {
+      "id": 9,
+      "title": "Moab Trail Marathon",
+      "type": "🏃",
+      "profile": "Katelyn Luther",
+      "date": "11/5/2022",
+      "time": "7:46",
+      "image": "https://images2.imgbox.com/ba/27/C7M0v3io_o.png",
+      "movementTime": "4:52:22",
+      "distance": 25.84,
+      "pace": "11:19",
+      "speed": null,
+      "elevation": 3737,
+      "location": "Moab, UT"
     }
   ],
   "Routes": [

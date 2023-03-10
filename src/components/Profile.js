@@ -10,7 +10,6 @@ function Profile({activities}) {
 
         return (
             <div>
-                <h1>Profile</h1>
                 <select defaultValue={"DEFAULT"} onChange={(e) => setSelected(e.target.value)}>
                     <option value="">--Choose an option--</option>
                     <option value="collin-doss">Collin Doss</option>
