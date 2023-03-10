@@ -5,7 +5,7 @@ function NavBar({ formToggle }) {
     const [hidden, setHidden] = useState(false);
     
     return (
-        <nav className="navbar navbar-expand bg-light" style={{background: "gray"}}>
+        <nav className="navbar navbar-expand bg-light header-padding" style={{background: "gray"}}>
             <div className="container">
                 <ul className="navbar-nav">
                     <li className="nav-item">
