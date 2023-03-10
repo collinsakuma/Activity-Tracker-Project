@@ -9,11 +9,11 @@
       "time": "5:13",
       "image": "https://thumbs2.imgbox.com/6a/1b/BBUHeDlF_t.png",
       "movementTime": "27:54",
-      "location": "Long Beach, CA",
       "distance": 3.13,
       "pace": "8:19",
       "speed": null,
-      "elevation": 25
+      "elevation": 25,
+      "location": "Long Beach, CA"
     },
     {
       "id": 2,
@@ -27,7 +27,8 @@
       "distance": 1.39,
       "pace": "9:57",
       "speed": null,
-      "elevation": 130
+      "elevation": 130,
+      "location": "Redondo Beach, CA"
     },
     {
       "id": 3,
@@ -41,7 +42,8 @@
       "distance": 6.47,
       "pace": "9:01",
       "speed": null,
-      "elevation": 200
+      "elevation": 205,
+      "location": "Seattle, WA"
     },
     {
       "id": 4,
@@ -55,7 +57,8 @@
       "distance": 21.34,
       "pace": null,
       "speed": 14.6,
-      "elevation": 1290
+      "elevation": 1290,
+      "location": "Orange, CA"
     },
     {
       "id": 5,
@@ -69,7 +72,8 @@
       "distance": 3,
       "pace": "8:50",
       "speed": null,
-      "elevation": 300
+      "elevation": 226,
+      "location": "Mammoth Lakes, CA"
     },
     {
       "id": 6,
