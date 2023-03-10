@@ -19,7 +19,7 @@ function Home({ activities,  addActivitytoActivities, showForm, sortActivities }
                     </div>
                 </div>
             </div>
-            <div className="container">
+            <div className="container container-cards">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 m-1">
                     {renderActivities}
                 </div>

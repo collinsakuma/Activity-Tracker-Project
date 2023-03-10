@@ -12,13 +12,19 @@ function RideForm({ addActivitytoActivities }) {
     const [elevation, setElevation] = useState("");
     const [location, setLocation] = useState("");
     
+    function reverseDate(dateVar) {
+        let newDate = dateVar.split("-");
+        newDate = `${newDate[1]}/${newDate[2]}/${newDate[0]}`
+        return newDate
+      }
+    
     const handleRunSubmit = (e) => {
         e.preventDefault();
         const newActivity= {
             title,
             type: "🚴",
             profile,
-            date,
+            date: reverseDate(date),
             time,
             image,
             movementTime,

@@ -133,3 +133,27 @@ code {
 .form-container {
   margin-bottom: 20px;
 }
+
+.container-cards {
+  margin-bottom: 100px;
+}
+
+.profilecard-body {
+  display: block;
+  text-align: left;
+  font-size: .9rem;
+  margin-top:0%;
+  margin-bottom: -3.75%;
+}
+
+.profilecard-body-bottom {
+  display: block;
+  text-align: left;
+  font-size: .9rem;
+  margin-top:0%;
+  margin-bottom: -6.2%;
+}
+
+.button-link:hover {
+  font-weight: 550;
+}

@@ -17,6 +17,7 @@ function RunForm({ addActivitytoActivities }) {
         newDate = `${newDate[1]}/${newDate[2]}/${newDate[0]}`
         return newDate
       }
+      
     const handleRunSubmit = (e) => {
         e.preventDefault();
         const newActivity= {

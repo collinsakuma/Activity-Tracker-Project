@@ -5,8 +5,21 @@ function ActivityCard({ activity }) {
     const {title, image, time, distance, pace, speed, movementTime, profile, date, type} = activity;
     
     function toStandardTime(militaryTime) {
-        militaryTime = militaryTime.split(':');
-        return (militaryTime[0].charAt(0) == 1 && militaryTime[0].charAt(1) > 2) ? (militaryTime[0] - 12) + ':' + militaryTime[1] + ':' + ' P.M.' : militaryTime.join(':') + ' A.M.'
+        let time = militaryTime.split(":");
+      
+        let hours = time[0];
+        let minutes = time[1];
+        let timeValue;
+        if (hours > 0 && hours <= 12) {
+          timeValue= "" + hours;
+        } else if (hours > 12) {
+          timeValue = "" + (hours - 12)
+        } else if ( hours === 0) {
+          timeValue = "12";
+        }
+        timeValue += (minutes < 10) ? ":" + minutes : ":" + minutes;
+        timeValue += (hours >= 12) ? " P.M." : " A.M.";
+        return timeValue;
     }
     
     function convertMovementTime(time) {

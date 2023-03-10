@@ -1,8 +1,21 @@
 function ProfileCard({ activity }) {
     const {title, image, time, distance, pace, speed, movementTime, date, location, type, elevation} = activity;
     function toStandardTime(militaryTime) {
-        militaryTime = militaryTime.split(':');
-        return (militaryTime[0].charAt(0) == 1 && militaryTime[0].charAt(1) > 2) ? (militaryTime[0] - 12) + ':' + militaryTime[1] + ' P.M.' : militaryTime.join(':') + ' A.M.'
+        let time = militaryTime.split(":");
+      
+        let hours = time[0];
+        let minutes = time[1];
+        let timeValue;
+        if (hours > 0 && hours <= 12) {
+          timeValue= "" + hours;
+        } else if (hours > 12) {
+          timeValue = "" + (hours - 12)
+        } else if ( hours === 0) {
+          timeValue = "12";
+        }
+        timeValue += (minutes < 10) ? ":" + minutes : ":" + minutes;
+        timeValue += (hours >= 12) ? " P.M." : " A.M.";
+        return timeValue;
     }
     function convertMovementTime(time) {
         const newTime = time.split(":")
@@ -28,16 +41,16 @@ function ProfileCard({ activity }) {
             </div>
             <img className="card-img-top" src={image} alt={title} />
             <div className="card-body">
-                <div className="runner-body">
+                <div className="profilecard-body">
                     <p><b className="card-font-weight">Movement Time:</b> {convertMovementTime(movementTime)}</p>
                 </div>
-                <div className="runner-body">
+                <div className="profilecard-body">
                 <p><b className="card-font-weight">{pace !== null ? "Pace:" : "Average Speed:"}</b> {pace !== null ? pace : speed}{pace !== null ? " /mi" : " mph"}</p>
                 </div>
-                <div className="runner-body align-left">
+                <div className="profilecard-body align-left">
                     <p><b className="card-font-weight">Distance:</b> {distance} miles</p>
                 </div>
-                <div className="runner-body align-left">
+                <div className="profilecard-body-bottom align-left">
                     <p><b className="card-font-weight">Elevation:</b> {elevation}'</p>
                 </div>
             </div>
