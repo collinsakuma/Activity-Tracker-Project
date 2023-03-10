@@ -22,6 +22,9 @@ function ProfileCard({ activity }) {
                 <div className="date-time">
                     {date} at {toStandardTime(time)}
                 </div>
+                <div className="date-time">
+                    {location}
+                </div>
             </div>
             <img className="card-img-top" src={image} alt={title} />
             <div className="card-body">
@@ -35,7 +38,7 @@ function ProfileCard({ activity }) {
                     <p><b className="card-font-weight">Distance:</b> {distance} miles</p>
                 </div>
                 <div className="runner-body align-left">
-                    <p><b className="card-font-weight">Elevation</b> {elevation}'</p>
+                    <p><b className="card-font-weight">Elevation:</b> {elevation}'</p>
                 </div>
             </div>
         </div>
