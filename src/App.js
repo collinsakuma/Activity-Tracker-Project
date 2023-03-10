@@ -25,7 +25,7 @@ function App() {
     if(sortBy === "Filter") {
       setActivities([...activities])
     }
-  })
+  },[sortBy])
   
   const sortByDistance = () => {
     return [...activities].sort(function (a, b) {
