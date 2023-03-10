@@ -76,21 +76,6 @@
     },
     {
       "id": 6,
-      "title": "Afternoon Ride",
-      "type": "🚴",
-      "profile": "Katelyn Luther",
-      "date": "2/25/2023",
-      "time": "13:05",
-      "image": "https://images2.imgbox.com/88/d3/WCX1KKWJ_o.png",
-      "movementTime": "1:24:02",
-      "distance": 22.92,
-      "pace": null,
-      "speed": 16.4,
-      "elevation": 774,
-      "location": "Boulder, CO"
-    },
-    {
-      "id": 7,
       "title": "Long Ride",
       "type": "🚴",
       "profile": "Katelyn Luther",
@@ -105,7 +90,7 @@
       "location": "Boulder, CO"
     },
     {
-      "id": 8,
+      "id": 7,
       "title": "Fraser Gravel",
       "type": "🚴",
       "profile": "Katelyn Luther",
@@ -120,7 +105,7 @@
       "location": "Fraser, CO"
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "Moab Trail Marathon",
       "type": "🏃",
       "profile": "Katelyn Luther",
@@ -135,7 +120,7 @@
       "location": "Moab, UT"
     },
     {
-      "id": 10,
+      "id": 9,
       "title": "Afternoon Ride",
       "type": "🚴",
       "profile": "Collin Doss",
@@ -150,7 +135,7 @@
       "location": "Redondo Beach, CA"
     },
     {
-      "id": 11,
+      "id": 10,
       "title": "Sunday Ride",
       "type": "🚴",
       "profile": "Collin Doss",
@@ -165,7 +150,7 @@
       "location": "Orange, CA"
     },
     {
-      "id": 12,
+      "id": 11,
       "title": "Lunch Ride",
       "type": "🚴",
       "profile": "Collin Doss",
@@ -180,7 +165,7 @@
       "location": "Lake Forest, CA"
     },
     {
-      "id": 13,
+      "id": 12,
       "title": "Lunch Ride",
       "type": "🚴",
       "profile": "Collin Doss",
@@ -195,7 +180,7 @@
       "location": "Redondo Beach, CA"
     },
     {
-      "id": 14,
+      "id": 13,
       "title": "Morning Ride",
       "type": "🚴",
       "profile": "Collin Doss",
@@ -210,7 +195,7 @@
       "location": "Santa Ana, CA"
     },
     {
-      "id": 15,
+      "id": 14,
       "title": "Afternoon Ride",
       "type": "🚴",
       "profile": "Collin Doss",
@@ -223,6 +208,21 @@
       "speed": 13.5,
       "elevation": 342,
       "location": "Cypress, CA"
+    },
+    {
+      "id": 15,
+      "title": "106 Degree Run...",
+      "type": "🏃",
+      "profile": "Collin Sakuma",
+      "date": "6/4/2021",
+      "time": "19:58",
+      "image": "https://thumbs2.imgbox.com/14/6b/5t7GMMjs_t.png",
+      "movementTime": "24:09",
+      "distance": 3.05,
+      "pace": "7:55",
+      "speed": null,
+      "elevation": 34,
+      "location": "Indio, CA"
     },
     {
       "id": 16,
@@ -286,18 +286,78 @@
     },
     {
       "id": 20,
-      "title": "106 Degree Run...",
+      "title": "Sanitas Trail Run",
       "type": "🏃",
-      "profile": "Collin Sakuma",
-      "date": "6/4/2021",
-      "time": "19:58",
-      "image": "https://thumbs2.imgbox.com/14/6b/5t7GMMjs_t.png",
-      "movementTime": "24:09",
-      "distance": 3.05,
-      "pace": "7:55",
+      "profile": "Katelyn Luther",
+      "date": "9/20/2022",
+      "time": "16:58",
+      "image": "https://images2.imgbox.com/bd/94/8SaQSgGK_o.png",
+      "movementTime": "1:03:13",
+      "distance": 6.00,
+      "pace": "10:32",
       "speed": null,
-      "elevation": 34,
-      "location": "Indio, CA"
+      "elevation": 1300,
+      "location": "Boulder, CO"
+    },
+    {
+      "id": 21,
+      "title": "Long Run",
+      "type": "🏃",
+      "profile": "Katelyn Luther",
+      "date": "9/11/2022",
+      "time": "12:39",
+      "image": "https://images2.imgbox.com/01/59/3lY95gVK_o.png",
+      "movementTime": "2:02:54",
+      "distance": 16,
+      "pace": "7:41",
+      "speed": null,
+      "elevation": 203,
+      "location": "Burton, OH"
+    },
+    {
+      "id": 22,
+      "title": "Betasso Full Loop",
+      "type": "🏃",
+      "profile": "Katelyn Luther",
+      "date": "8/24/2022",
+      "time": "17:44",
+      "image": "https://images2.imgbox.com/e3/5d/ZRqvHR2H_o.png",
+      "movementTime": "1:43:43",
+      "distance": 10.45,
+      "pace": "9:55",
+      "speed": null,
+      "elevation": 1394,
+      "location": "Boulder, CO"
+    },
+    {
+      "id": 23,
+      "title": "Gold Hill + Ned",
+      "type": "🚴",
+      "profile": "Katelyn Luther",
+      "date": "7/17/2022",
+      "time": "17:14",
+      "image": "https://images2.imgbox.com/82/25/JSNofcUR_o.png",
+      "movementTime": "5:00:51",
+      "distance": 44.03,
+      "pace": null,
+      "speed": "8.8",
+      "elevation": 5383,
+      "location": "Boulder, CO"
+    },
+    {
+      "id": 24,
+      "title": "Mountain Bike",
+      "type": "🚴",
+      "profile": "Katelyn Luther",
+      "date": "7/30/2022",
+      "time": "15:32",
+      "image": "https://images2.imgbox.com/66/21/9VRdHZpV_o.png",
+      "movementTime": "1:31:12",
+      "distance": 12.23,
+      "pace": null,
+      "speed": "8.1",
+      "elevation": 1266,
+      "location": "Mead, PA"
     }
   ],
   "Routes": [
@@ -340,6 +400,46 @@
       "distance": 6,
       "elevation": 2641,
       "difficulty": "difficult"
+    },
+    {
+      "id": 5,
+      "description": "Anemone",
+      "location": "Boulder, CO",
+      "type": "🏃",
+      "image": "https://images2.imgbox.com/63/10/e0cbUqwu_o.png",
+      "distance": 4,
+      "elevation": 745,
+      "difficulty": "moderate"
+    },
+    {
+      "id": 6,
+      "description": "Turquoise Lake Rd",
+      "location": "Leadville, CO",
+      "type": "🚴",
+      "image": "https://images2.imgbox.com/ca/e4/mXdlagYl_o.png",
+      "distance": 7.91,
+      "elevation": 544,
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "description": "Valmont / Jay Loop",
+      "location": "Boulder, CO",
+      "type": "🚴",
+      "image": "https://images2.imgbox.com/da/0a/i8XH3M4G_o.png",
+      "distance": 31.68,
+      "elevation": 1164,
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "description": "Niwot / Neva ",
+      "location": "Boulder, CO",
+      "type": "🚴",
+      "image": "https://images2.imgbox.com/b1/75/A44tOHUB_o.png",
+      "distance": 16.3,
+      "elevation": 723,
+      "difficulty": "easy"
     }
   ]
 }
