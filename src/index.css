@@ -95,7 +95,7 @@ code {
 
 .header-padding {
   margin-top: 1%;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .title-font {
   font-family: 'Lexend Deca', sans-serif;
@@ -124,4 +124,12 @@ code {
 .activity-select {
   border-color: lightgray;
   border-radius: 4px;
+}
+
+.filter-padding {
+  padding-left: 40px;
+}
+
+.form-container {
+  margin-bottom: 20px;
 }

@@ -7,7 +7,7 @@ function ActivityForm({ addActivitytoActivities }) {
     return (
     <div className="row d-flex justify-content-center">
         <div className="col-6 justify-content-center">
-            <div className="form container border rounded">
+            <div className="form container border rounded form-container">
                 <h5 className="form-title">New Activity</h5>
                 <div className="row d-flex justify-content-center">
                     <select className="col-auto m-2 activity-select"  defaultValue={"DEFAULT"} onChange={(e) => setSelected(e.target.value)}>

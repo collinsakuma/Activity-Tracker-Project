@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ProfileCard from "./ProfileCard";
 import CollinDProfile from "./CollinDProfile";
 import CollinSProfile from "./CollinSProfile";
 import KatelynProfile from "./KatelynProfile";
