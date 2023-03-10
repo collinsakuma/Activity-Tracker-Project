@@ -23,9 +23,3 @@ function Profile({activities}) {
         )
 }
 export default Profile;
-
-// const renderActivitiesByProfile = activities.filter(activity => activity.profile = "activity.profile").map(activity => (
-//     <div className="col" key={activity.id}>
-//         <ActivityCard activity={activity}/>
-//     </div>
-//     ))
