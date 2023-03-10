@@ -4,11 +4,11 @@ function RouteCard({route}) {
       <div className="card-header">
         <div className="runner-header">
          <h4><b className="card-font-weight">{route.description} - {route.type}</b></h4>
-      </div>
+        </div>
       </div>
       <img className="card-img-top" src={route.image} alt={route.description}/>
       <div className="card-body">
-      <div className="runner-body">
+        <div className="runner-body"> 
           <p><b className="card-font-weight">Location: </b>{route.location}</p></div>
         <div className="runner-body">
           <p><b className="card-font-weight">Distance: </b>{route.distance} miles</p></div>

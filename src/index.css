@@ -53,6 +53,7 @@ code {
 
 .nav-link {
   color: #fc5200;
+  font-size: 130%;
 }
 
 .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -84,3 +85,41 @@ code {
 .form-dropdown {
   align-self: center;
 } 
+
+.title-padding {
+  margin-bottom: -1%;
+  padding: 2%;
+}
+
+.header-padding {
+  margin-top: 1%;
+  margin-bottom: 50px;
+}
+.title-font {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 600;
+  font-size: 375%;
+}
+
+.form-title {
+  color:#fc5200;
+  padding-top: 10px;
+}
+
+.activity-btn {
+  background-color: #fc5200;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  opacity: .6;
+  
+}
+
+.activity-btn:hover {
+  opacity: 1;
+}
+
+.activity-select {
+  border-color: lightgray;
+  border-radius: 4px;
+}

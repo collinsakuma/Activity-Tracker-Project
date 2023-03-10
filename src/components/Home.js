@@ -11,7 +11,6 @@ function Home({ activities,  addActivitytoActivities, showForm }) {
     ))
     return (
         <div>
-            <h1>Activity Feed</h1>
             {showForm ? <ActivityForm addActivitytoActivities={addActivitytoActivities}/> : null}
             <div className="button">
             </div>
