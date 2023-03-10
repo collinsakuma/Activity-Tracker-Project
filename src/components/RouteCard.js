@@ -2,8 +2,8 @@ function RouteCard({route}) {
   return (
     <div className="card col-12 display:flex m-1 p-0">
       <div className="card-header">
-         <p><b className="card-font-weight" style={{color: "#fc5200"}}>{route.description} - {route.type}</b></p>
-         <p className="card-font-weight">{route.location}</p>
+         <p><b className="card-font-weight">{route.description} - {route.type}</b></p>
+         <p className="card-font-weight"  style={{color: "#fc5200"}}>{route.location}</p>
       </div>
       <img className="card-img-top" src={route.image} alt={route.description}/>
       <div className="card-body">
