@@ -27,7 +27,8 @@
       "distance": 1.39,
       "pace": "9:57",
       "speed": null,
-      "elevation": 130
+      "elevation": 130,
+      "location": "Redondo Beach, CA"
     },
     {
       "id": 3,
@@ -40,8 +41,7 @@
       "movementTime": "58:25",
       "distance": 6.47,
       "pace": "9:01",
-      "speed": null,
-      "elevation": 200,
+      "elevation": 205,
       "location": "Seattle, WA"
     },
     {
@@ -56,7 +56,8 @@
       "distance": 21.34,
       "pace": null,
       "speed": 14.6,
-      "elevation": 1290
+      "elevation": 1290,
+      "location": "Orange, CA"
     },
     {
       "id": 5,
@@ -70,7 +71,7 @@
       "distance": 3,
       "pace": "8:50",
       "speed": null,
-      "elevation": 300,
+      "elevation": 226,
       "location": "Mammoth Lakes, CA"
     },
     {
