@@ -9,11 +9,11 @@
       "time": "5:13",
       "image": "https://thumbs2.imgbox.com/6a/1b/BBUHeDlF_t.png",
       "movementTime": "27:54",
-      "location": "Long Beach, CA",
       "distance": 3.13,
       "pace": "8:19",
       "speed": null,
-      "elevation": 25
+      "elevation": 25,
+      "location": "Long Beach, CA"
     },
     {
       "id": 2,
@@ -69,7 +69,8 @@
       "distance": 3,
       "pace": "8:50",
       "speed": null,
-      "elevation": 300
+      "elevation": 300,
+      "location": "Mammoth Lakes, CA"
     },
     {
       "id": 6,
@@ -83,7 +84,8 @@
       "distance": 22.92,
       "pace": null,
       "speed": 16.4,
-      "elevation": 774
+      "elevation": 774,
+      "location": "Boulder, CO"
     },
     {
       "id": 7,
@@ -97,7 +99,8 @@
       "distance": 50.46,
       "pace": null,
       "speed": 14.8,
-      "elevation": 1706
+      "elevation": 1706,
+      "location": "Boulder, CO"
     },
     {
       "id": 8,
@@ -111,7 +114,8 @@
       "distance": 63.28,
       "pace": null,
       "speed": 11.5,
-      "elevation": 4987
+      "elevation": 4987,
+      "location": "Fraser, CO"
     }
   ],
   "Routes": [
