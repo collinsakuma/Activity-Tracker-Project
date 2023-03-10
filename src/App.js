@@ -7,6 +7,39 @@ import { useEffect, useState } from "react";
 function App() {
   const [activities, setActivities] = useState([]);
   const [showForm, setShowForm] = useState(false);
+  const [sortBy, setSortBy] = useState("");
+
+  const sortActivities = (e) => {
+    setSortBy(e.target.value)
+  }
+
+  useEffect(() => {
+    if(sortBy === "Distance") {
+      const sortedActivities = sortByDistance()
+      setActivities(sortedActivities)
+    }
+    if(sortBy === "Date") {
+      const sortedActivities = sortByDate()
+      setActivities(sortedActivities)
+    }
+    if(sortBy === "Filter") {
+      setActivities([...activities])
+    }
+  })
+  
+  const sortByDistance = () => {
+    return [...activities].sort(function (a, b) {
+      return a.distance - b.distance;
+    });
+  }
+
+  const sortByDate = () => {
+    return [...activities].sort(function(a, b) {
+      return new Date(b.date) - new Date(a.date);
+    })
+  }
+
+
   const formToggle = () => {
       setShowForm(!showForm)
   }
@@ -34,7 +67,7 @@ function App() {
     <div className="App">
       <Header />
       <NavBar formToggle={formToggle}/>
-      <MainContainer activities={activities} addActivitytoActivities={addActivitytoActivities} showForm={showForm}/>
+      <MainContainer activities={activities} addActivitytoActivities={addActivitytoActivities} showForm={showForm} sortActivities={sortActivities}/>
     </div>
   );
 }
